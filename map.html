@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+                center: new google.maps.LatLng(47.6588872, 9.177082),
+                zoom: 15,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">services</a>
+                    </li>
+                    <li>
+                        <a href="map.html">find us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section>
+        <div class="intro">
+            <div id="opening">
+                <table class="table">
+                    <tbody>
+                        <tr id="title"><td>Opening hours</td><td></td></tr>
+                        <tr><td>Monday</td> <td>08:00 - 20:00</td></tr>
+                        <tr><td>Tuesday</td> <td>08:00 - 20:00</td></tr>
+                        <tr><td>Wednesday</td> <td>08:00 - 20:00</td></tr>
+                        <tr><td>Thursday</td> <td>08:00 - 20:00</td></tr>
+                        <tr><td>Friday</td> <td>08:00 - 20:00</td></tr>
+                        <tr><td>Saturday</td> <td>08:00 - 20:00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+
+            <p class="paraCredit">
+                Credit photo @ Hans Van Den Berg,
+                <a href="https://creativecommons.org/licenses/by/2.0/">Licence</a>
+            </p>
+
+            <!--Heading-->
+            <div class="col-xs-12">
+                <hr/>
+                <h2>Contact</h2>
+            </div>
+
+            <div class="col-md-6">
+                <address>
+
+                    <span class="glyphicon glyphicon-home"></span>
+                    Bahnhofplatz 43, <br/>
+                    78462 Konstanz, Altstadt
+                    <hr/>
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    <p>+41 79 000 00 00</p>
+                    <hr/>
+                    <span class="glyphicon glyphicon-user"></span>
+                    <p>Katarina Glavasic</p>
+                </address>
+            </div>
+
+            <div id="map" class="col-md-6"></div>
+        </div>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <address>
+                        <p>
+                            Bahnhofplatz 43, <br />
+                            78462 Konstanz, Altstadt
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        +41 79 000 00 00
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>Created by Katarina Glavasic</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

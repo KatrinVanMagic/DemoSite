@@ -1,0 +1,110 @@
+body {
+  font-family: HelveticaNeue-LightCondObl, Arial, Helvetica; }
+
+nav {
+  display: table;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white; }
+  nav .navbar {
+    border-radius: 0; }
+  nav ul {
+    display: table-cell;
+    width: 100%;
+    line-height: 100%; }
+    nav ul li {
+      display: inline-block;
+      padding: 20px;
+      float: left;
+      text-align: center; }
+      nav ul li a:link, nav ul li a:visited, nav ul li a:hover, nav ul li a:active {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #b8afa0;
+        font-size: 1.7em;
+        font-weight: 700; }
+
+.row {
+  border-left: 1px solid #e9e8e8;
+  border-right: 1px solid #e9e8e8; }
+
+.intro {
+  background-color: transparent;
+  background-image: url("../images/hair.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px; }
+  .intro #opening {
+    background-color: #b8afa0;
+    color: white;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px; }
+    .intro #opening .table #title {
+      width: auto;
+      background-color: black;
+      text-align: center; }
+
+#section2 {
+  color: #000000; }
+
+hr {
+  border-color: #a6a6a6;
+  border-style: dotted;
+  margin: 40px 0; }
+
+h2 {
+  color: #b8afa0;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.team {
+  padding-top: 20px;
+  background-color: #b8afa0; }
+
+.paraCredit {
+  color: #e9e8e8;
+  float: right; }
+  .paraCredit a {
+    color: #e9e8e8; }
+
+.table {
+  margin-top: 50px; }
+  .table .tableHeading {
+    background-color: #b8afa0; }
+
+.footer {
+  display: block;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #b8afa0; }
+  .footer h4 {
+    color: white;
+    text-transform: uppercase; }
+  .footer p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white; }
+
+#contact {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px; }
+  #contact a {
+    color: #b8afa0;
+    text-transform: uppercase; }
+
+#map {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=app.css.map */
