@@ -4,27 +4,23 @@ body{
     font-family: HelveticaNeue-LightCondObl, Arial, Helvetica;
 }
 
-nav {      
-    display: table;
+nav {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
+    background-color: $navBackground;
+    text-align: center;
 
     .navbar{
     border-radius: 0;
     }
 
         ul {
-            display: table-cell;
-            width: 100%;
-            line-height: 100%;
 
+            .phone{
+                float:right;
+            }
             li {
-                
                 display: inline-block;
                 padding: 20px;
-                float: left;
                 text-align: center;
                 a {      
 
@@ -32,9 +28,18 @@ nav {
                         text-decoration: none;
                         text-transform: uppercase;
                         color: $navText;
-                        font-size: 1.7em;
-                        font-weight: 700;
+                        font-size: 1.2em;
+                        font-weight: 400;
                     }
+                }
+                .glyphicon{
+                    color: white;
+                    font-weight: normal;
+
+                }
+                p{
+                    color: $navText;
+                    font-size: 1.6em;
                 }
             }
         }       
@@ -54,7 +59,7 @@ nav {
    
     #opening{
         background-color: #b8afa0;
-        color: white;      
+        color: white;
         float: right;
         margin-top: 50px;
         margin-right: 50px;

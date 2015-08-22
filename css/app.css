@@ -1,92 +1,140 @@
+/* line 3, ../sass/app.scss */
 body {
-  font-family: HelveticaNeue-LightCondObl, Arial, Helvetica; }
+  font-family: HelveticaNeue-LightCondObl, Arial, Helvetica;
+}
 
+/* line 7, ../sass/app.scss */
 nav {
-  display: table;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white; }
-  nav .navbar {
-    border-radius: 0; }
-  nav ul {
-    display: table-cell;
-    width: 100%;
-    line-height: 100%; }
-    nav ul li {
-      display: inline-block;
-      padding: 20px;
-      float: left;
-      text-align: center; }
-      nav ul li a:link, nav ul li a:visited, nav ul li a:hover, nav ul li a:active {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #b8afa0;
-        font-size: 1.7em;
-        font-weight: 700; }
+  background-color: #333333;
+  text-align: center;
+}
+/* line 12, ../sass/app.scss */
+nav .navbar {
+  border-radius: 0;
+}
+/* line 18, ../sass/app.scss */
+nav ul .phone {
+  float: right;
+}
+/* line 21, ../sass/app.scss */
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+/* line 27, ../sass/app.scss */
+nav ul li a:link, nav ul li a:visited, nav ul li a:hover, nav ul li a:active {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+/* line 35, ../sass/app.scss */
+nav ul li .glyphicon {
+  color: white;
+  font-weight: normal;
+}
+/* line 40, ../sass/app.scss */
+nav ul li p {
+  color: #ffffff;
+  font-size: 1.6em;
+}
 
+/* line 48, ../sass/app.scss */
 .row {
   border-left: 1px solid #e9e8e8;
-  border-right: 1px solid #e9e8e8; }
+  border-right: 1px solid #e9e8e8;
+}
 
+/* line 53, ../sass/app.scss */
 .intro {
   background-color: transparent;
   background-image: url("../images/hair.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px; }
-  .intro #opening {
-    background-color: #b8afa0;
-    color: white;
-    float: right;
-    margin-top: 50px;
-    margin-right: 50px; }
-    .intro #opening .table #title {
-      width: auto;
-      background-color: black;
-      text-align: center; }
+  height: 400px;
+}
+/* line 60, ../sass/app.scss */
+.intro #opening {
+  background-color: #b8afa0;
+  color: white;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+/* line 68, ../sass/app.scss */
+.intro #opening .table #title {
+  width: auto;
+  background-color: black;
+  text-align: center;
+}
 
+/* line 77, ../sass/app.scss */
 #section2 {
-  color: #000000; }
+  color: #000000;
+}
 
+/* line 82, ../sass/app.scss */
 hr {
   border-color: #a6a6a6;
   border-style: dotted;
-  margin: 40px 0; }
+  margin: 40px 0;
+}
 
+/* line 88, ../sass/app.scss */
 h2 {
-  color: #b8afa0;
+  color: #ffffff;
   font-weight: 300;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
+/* line 94, ../sass/app.scss */
 .team {
   padding-top: 20px;
-  background-color: #b8afa0; }
+  background-color: #b8afa0;
+}
 
+/* line 98, ../sass/app.scss */
 .paraCredit {
   color: #e9e8e8;
-  float: right; }
-  .paraCredit a {
-    color: #e9e8e8; }
+  float: right;
+}
+/* line 101, ../sass/app.scss */
+.paraCredit a {
+  color: #e9e8e8;
+}
 
+/* line 107, ../sass/app.scss */
 .table {
-  margin-top: 50px; }
-  .table .tableHeading {
-    background-color: #b8afa0; }
+  margin-top: 50px;
+}
+/* line 109, ../sass/app.scss */
+.table .tableHeading {
+  background-color: #b8afa0;
+}
 
+/* line 113, ../sass/app.scss */
 .footer {
   display: block;
   padding: 30px;
   margin-top: 20px;
-  background-color: #b8afa0; }
-  .footer h4 {
-    color: white;
-    text-transform: uppercase; }
-  .footer p {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: white; }
+  background-color: #b8afa0;
+}
+/* line 118, ../sass/app.scss */
+.footer h4 {
+  color: white;
+  text-transform: uppercase;
+}
+/* line 123, ../sass/app.scss */
+.footer p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+}
 
+/* line 131, ../sass/app.scss */
 #contact {
   margin-left: auto;
   margin-right: auto;
@@ -96,15 +144,18 @@ h2 {
   margin-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 300px; }
-  #contact a {
-    color: #b8afa0;
-    text-transform: uppercase; }
+  width: 300px;
+}
+/* line 142, ../sass/app.scss */
+#contact a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
+/* line 149, ../sass/app.scss */
 #map {
   width: 500px;
   height: 400px;
   margin-left: auto;
-  margin-right: auto; }
-
-/*# sourceMappingURL=app.css.map */
+  margin-right: auto;
+}
